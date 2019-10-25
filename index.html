@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Super Lucky Star</title>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1,IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Cache-Control" content="must-revalidate,no-cache" />
+    <meta name="viewport" content="height=device-height,width=device-width,initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0 user-scalable=no" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="js/build.css" rel="stylesheet">
+    <script type="text/javascript" src="js/babel-polyfill.js" charset="UTF-8"></script>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="app" class="max100">
+      <div class="content max100">
+          <router-view :key="key"></router-view>
+      </div>
+      <div v-if="false" class="disp-box gradual-appear">
+        <div class="msg-content" style="padding-bottom: 20px;">
+            <p class="msg-close-box">
+            </p>
+            <p class="align-c fs16" style="padding: 20px 40px 6px 40px;margin: 0;">
+                <img src="/images/logo_metamask.png" style="width:20px;height:20px;vertical-align:unset;" />
+                <strong style="color: #ff7b06;display: inline-block;font-weight: normal;margin-left:2px;">MetaMask</strong>
+            </p>
+            <p class="fs14 align-c" style="padding:10px 20px;margin:0;cursor:pointer;color:#36c8e4;">
+              Currently the wallet does not support Web3, please install MetaMask.
+            </p>
+            <p class="fs14 align-c" style="padding:5px 20px;margin:0;">
+                <a class="no-link invest-btn" style="padding:10px 0;display:inline-block;color: #fff;" href="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en" target="_bank">
+                  Install MetaMask
+                </a>
+            </p>
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript" src="js/base.js?v=38" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/base1.js?v=38" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/base2.js?v=38" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/base3.js?v=38" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/base4.js?v=38" charset="UTF-8"></script>
+    <script type="text/javascript" src="js/vendors.js?v=38" charset="UTF-8"></script> 
+    <script type="text/javascript" src="js/index.js?v=38" charset="UTF-8"></script>
+  </body>
+</html>
